@@ -10,6 +10,8 @@ body {
 	min-width: 780px;
 	margin: 0;
 	font: 14px/16px Arial, Helvetica, sans-serif;
+	
+	
 }
 #body > li {
 	font: 14px/16px Arial, Helvetica, sans-serif;
@@ -58,9 +60,7 @@ img {
 	width: 780px;
 	padding: 10px 10px 0;
 }
-#contents img {
-	border: 0px solid rgba(231, 231, 231, 0.8);
-}
+
 h1 {
 	color: #57614e;
 	font: 28px/30px "Times New Roman", Times, serif;
@@ -130,7 +130,7 @@ p a:hover {
 	margin: 0;
 	background-color: white;
 	background-repeat: repeat-y;
-	padding: 15px 15px 15px 15px;
+	padding: 5px 5px 5px 5px;
 }
 
 
