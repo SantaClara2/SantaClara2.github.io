@@ -5,11 +5,19 @@ html { /* Ensures elements are flush to the edges of browser window */
 	padding: 0;
 }
 
+  @media only screen and (max-width: 960px) {
+        .largeScreen {display: none;}
+   }
+
+   /* On larger resolutions, hide the text for Small screens */
+    @media only screen and (min-width: 960px) {
+        .smallScreen {display: none;}
+   }
+
 body {
 	background-color: #e2e2e2;
 	min-width: 780px;
 	margin: 0;
-	font: 14px/16px Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -30,7 +38,7 @@ header {
 }
 /*------------ CONTENTAREA ------------*/
 #contentarea {
-	width: 90%;
+	width: 80%;
 	text-align: left;
 	min-height: 310px;
 	margin: auto auto;
