@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-html { /* Ensures elements are flush to the edges of browser window */
-	margin: 20;
-	padding: 20;
+html { 
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -18,11 +18,13 @@ img {
 	border: 0;
 }
 /*------------ CONTENTS ------------*/
-#contents {
+#content {
+	margin: 0px 30px 0px 30px;
+	padding: 10px;
 	padding-bottom: 24px;
-}
-#contents > div.clearfix:first-child {
 	background-color: white;
+}
+#content > div.clearfix:first-child {
 	width: 780px;
 	padding: 10px 10px 0;
 }
