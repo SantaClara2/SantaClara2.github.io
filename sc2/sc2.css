@@ -25,7 +25,6 @@ img {
 	background-color: white;
 }
 #content > div.clearfix:first-child {
-	width: 780px;
 	padding: 10px 10px 0;
 }
 /*------------ HEADER ------------*/
@@ -47,7 +46,7 @@ header {
 #footer  p {
 	vertical-align: top;
 	text-align: center;
-	color: #626262;
+
 }
 
 #facebook {
