@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 html { /* Ensures elements are flush to the edges of browser window */
-	margin: 0;
-	padding: 0;
+	margin: 20;
+	padding: 20;
 }
 
 
