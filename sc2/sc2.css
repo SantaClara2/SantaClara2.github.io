@@ -17,6 +17,15 @@ img {
 	margin: auto, auto;
 	border: 0;
 }
+/*------------ CONTENTS ------------*/
+#contents {
+	padding-bottom: 24px;
+}
+#contents > div.clearfix:first-child {
+	background-color: white;
+	width: 780px;
+	padding: 10px 10px 0;
+}
 /*------------ HEADER ------------*/
 header {
 	background: #0b59ae;
